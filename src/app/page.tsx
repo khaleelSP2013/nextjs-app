@@ -6,7 +6,7 @@ export default function Home() {
    
    <div className="h-screen flex flex-col  
                     items-center justify-center"> 
-  <p className="block items-center text-teal-700 text-lg font-bold mb-2">WellCome |Next Js Course</p>
+  <p className="block items-center text-teal-700 text-lg font-bold mb-2">WelCome || Next Js Course</p>
   <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
     <div className="mb-4">
       <label className="block text-teal-700 text-sm font-bold mb-2" htmlFor="username">
