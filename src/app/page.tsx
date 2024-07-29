@@ -6,11 +6,11 @@ export default function Home() {
    
    <div className="h-screen flex flex-col  
                     items-center justify-center"> 
-  <p className="block items-center text-teal-700 text-lg font-bold mb-2">Login Form</p>
+  <p className="block items-center text-teal-700 text-lg font-bold mb-2">Wel Come |Next Js Course</p>
   <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
     <div className="mb-4">
       <label className="block text-teal-700 text-sm font-bold mb-2" htmlFor="username">
-        Username
+        User Name
       </label>
     <input type="text" id="username" placeholder="User Name" className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"/>
     </div>
@@ -30,7 +30,7 @@ export default function Home() {
     </div>
   </form>
   <p className="text-center text-teal-700 text-xs">
-    &copy;2020 Demo Corp. All rights reserved.
+    &copy;2024 mahalthy Corp. All rights reserved.
   </p>
 </div>
    </>
