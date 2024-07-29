@@ -12,7 +12,7 @@ const products=productResponse.json();
 console.log(products)
   return (
     <>
-    <h2>Layout Page</h2>
+    {/* <h2>Layout Page</h2> */}
     {children}
     </>
   )
