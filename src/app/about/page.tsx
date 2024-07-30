@@ -10,7 +10,7 @@ const About = () => {
     
     <div className="flex rounded-t-lg bg-top-color sm:px-2 w-full">
         <div className="h-40 w-40 overflow-hidden sm:rounded-full sm:relative sm:p-0 top-10 left-5 p-3">
-            <img src="https://media.licdn.com/dms/image/C4D03AQH8qidO0nb_Ng/profile-displayphoto-shrink_800_800/0/1615696897070?e=2147483647&v=beta&t=ia3wfE2J7kVLdBy9ttkgUDAA_ul29fymykhQo0lABDo"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6C5PH28b9xIaMZmDTVb_J0ap2ffRQQKx45w&s"/>
         </div>
 
         <div className="w-2/3 sm:text-center pl-5 mt-10 text-start">
@@ -86,11 +86,7 @@ const About = () => {
                     <div className="border-2 w-20 border-top-color my-3"></div>
 
                     <div>
-                        <div className="flex items-center my-1">
-                          
-                            <div className="ml-2">Tailwind CSS</div>
-                        </div>
-                     
+                                          
                         <div className="flex items-center my-1">
                             <a className="w-6 text-gray-700 hover:text-orange-600"
                                 aria-label="Visit TrendyMinds Facebook" href="" target="_blank">
@@ -100,15 +96,15 @@ const About = () => {
                                                 <path
                                                     d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z"
                                                     id="MingCute" fill-rule="nonzero">
-
                                                 </path>
-                                                
                                             </g>
                                         </g>
                                     </g>
-                              
                             </a>
-                            <div className="ml-2">Net Core</div>
+                            <div className="ml-2">C#, ASP.NET, WEB API. NETCORE 3.1, EF. ANGULAR, REACT JS, NEXT JS</div>
+                            <div className="ml-2">Jenkins, Azure, TFS, Git, Docker and SQL Server</div>
+                            <div className="ml-2">JIRA,Agile</div>
+
                         </div>
                         <div className="flex items-center my-1">
                             <a className="w-6 text-gray-700 hover:text-orange-600"
@@ -124,7 +120,7 @@ const About = () => {
                                         stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
                                 </svg>
                             </a>
-                            <div className="ml-2">React js, Next js,Html, Css</div>
+                            <div className="ml-2">React js, Next js,Angular 8 ,Html, Css</div>
                         </div>
 
                     </div>
@@ -197,6 +193,16 @@ const About = () => {
                                 <li>Solving critical bugs</li>
                             </ul>
                         </div>
+                        <div className="flex flex-col mt-8">
+                            <p className="text-lg font-bold text-gray-700"> General Directorate of Military Works, Ministry of Defense, Riyadh, KSA | Sr. Software Engineer  </p>
+                            <p className="font-semibold text-sm text-gray-700">2013-2018</p>
+                            <p className="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
+                            <ul className="text-sm list-disc pl-4 space-y-1">
+                                <li>Developed usable components</li>
+                                <li>Solving complex problems</li>
+                                <li>Solving critical bugs</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
@@ -218,7 +224,7 @@ const About = () => {
                             </p>
                         </div>
                         <div className="flex flex-col">
-                            <p className="text-lg font-semibold text-gray-700">: FI (Financial Institutions)</p>
+                            <p className="text-lg font-semibold text-gray-700">FI (Financial Institutions)</p>
                             <p className="font-normal text-sm text-gray-700 mb-1 pl-2">The Project is used to manage institutions’ financial performance. This project brings together budgeting, Forecasting, financial planning, Profitability and Relationship profitability and pricing on single unified platform. Transform your financials—from inputs to outcomes—with our driver-based budgeting, planning, and forecasting software. Integrated financial planning software to budget, model scenarios, analyses and drive profitability. Streamline processes and increase accuracy through automated consolidation across organization levels.
                             </p>
                         </div>
