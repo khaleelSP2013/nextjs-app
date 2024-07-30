@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image'
 const About = () => {
   return (
     
@@ -9,8 +9,14 @@ const About = () => {
 
     
     <div className="flex rounded-t-lg bg-top-color sm:px-2 w-full">
-        <div className="h-40 w-40 overflow-hidden sm:rounded-full sm:relative sm:p-0 top-10 left-5 p-3">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6C5PH28b9xIaMZmDTVb_J0ap2ffRQQKx45w&s"/>
+    
+        <div className="h-40 w-40 overflow-hidden sm:rounded-full sm:relative sm:p-0 top-10 left-10 p-3">
+        <Image
+      src="/khaleel.jpg"
+      width={400}
+      height={500}
+      alt="Picture of the author"
+    />
         </div>
 
         <div className="w-2/3 sm:text-center pl-5 mt-10 text-start">
@@ -35,24 +41,11 @@ const About = () => {
 
                     <div>
                         <div className="flex items-center my-1">
-                            <a className="w-6 text-gray-700 hover:text-orange-600"><svg
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" className="h-4">
-                                    <path fill="currentColor"
-                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
-                                    </path>
-                                </svg>
-                            </a>
+                            
                             <div className="ml-2 truncate">mahalthykhaleel@hotmail.com</div>
                         </div>
                         <div className="flex items-center my-1">
-                            <a className="w-6 text-gray-700 hover:text-orange-600"
-                                aria-label="Visit TrendyMinds YouTube" href="" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" className="h-4">
-                                    <path fill="currentColor"
-                                        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
-                                    </path>
-                                </svg>
-                            </a>
+                           
                             <div>+91 8296485050</div>
                         </div>
                      
@@ -64,23 +57,9 @@ const About = () => {
                     <div className="border-2 w-20 border-top-color my-3"></div>
                     <div>
                         <div className="flex items-center my-1">
-                            <a className="w-6 text-gray-700 hover:text-orange-600"
-                                aria-label="Visit TrendyMinds Facebook" href="" target="_blank">
-                                       <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g id="Logo" transform="translate(0.000000, -144.000000)">
-                                            <g id="Android_2_fill" transform="translate(0.000000, 144.000000)">
-                                                <path
-                                                    d="M24,0 L24,24 L0,24 L0,0 L24,0 Z M12.5934901,23.257841 L12.5819402,23.2595131 L12.5108777,23.2950439 L12.4918791,23.2987469 L12.4918791,23.2987469 L12.4767152,23.2950439 L12.4056548,23.2595131 C12.3958229,23.2563662 12.3870493,23.2590235 12.3821421,23.2649074 L12.3780323,23.275831 L12.360941,23.7031097 L12.3658947,23.7234994 L12.3769048,23.7357139 L12.4804777,23.8096931 L12.4953491,23.8136134 L12.4953491,23.8136134 L12.5071152,23.8096931 L12.6106902,23.7357139 L12.6232938,23.7196733 L12.6232938,23.7196733 L12.6266527,23.7031097 L12.609561,23.275831 C12.6075724,23.2657013 12.6010112,23.2592993 12.5934901,23.257841 L12.5934901,23.257841 Z M12.8583906,23.1452862 L12.8445485,23.1473072 L12.6598443,23.2396597 L12.6498822,23.2499052 L12.6498822,23.2499052 L12.6471943,23.2611114 L12.6650943,23.6906389 L12.6699349,23.7034178 L12.6699349,23.7034178 L12.678386,23.7104931 L12.8793402,23.8032389 C12.8914285,23.8068999 12.9022333,23.8029875 12.9078286,23.7952264 L12.9118235,23.7811639 L12.8776777,23.1665331 C12.8752882,23.1545897 12.8674102,23.1470016 12.8583906,23.1452862 L12.8583906,23.1452862 Z M12.1430473,23.1473072 C12.1332178,23.1423925 12.1221763,23.1452606 12.1156365,23.1525954 L12.1099173,23.1665331 L12.0757714,23.7811639 C12.0751323,23.7926639 12.0828099,23.8018602 12.0926481,23.8045676 L12.108256,23.8032389 L12.3092106,23.7104931 L12.3186497,23.7024347 L12.3186497,23.7024347 L12.3225043,23.6906389 L12.340401,23.2611114 L12.337245,23.2485176 L12.337245,23.2485176 L12.3277531,23.2396597 L12.1430473,23.1473072 Z"
-                                                    id="MingCute" fill-rule="nonzero">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </g>
-                            </a>
+                          
                             <div className="ml-2">C#, ASP.NET, WEB API. NETCORE 3.1, EF. ANGULAR, REACT JS, NEXT JS</div>
-                            <div className="ml-2">Jenkins, Azure, TFS, Git, Docker and SQL Server</div>
-                            <div className="ml-2">JIRA,Agile</div>
-
+                            <div className="ml-2">JIRA,Agile,Jenkins, Azure, TFS, Git, SQL Server</div>
                         </div>
                         <div className="flex items-center my-1">
                            
@@ -103,7 +82,7 @@ const About = () => {
                         </div>
                        
                         <div className="flex flex-col">
-                            <p className="text-sm font-medium"><span className="text-green-700">B.A.(Maths) </span>, Sri Krishnadevaraya University, Anatapuramu, A.P</p>
+                            <p className="text-sm font-medium"><span className="text-green-700">B.A.(Maths) </span>, Sri Krishnadevaraya University</p>
                         </div>
 
                     </div>
