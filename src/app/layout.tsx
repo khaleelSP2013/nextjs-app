@@ -39,7 +39,10 @@ export default function RootLayout({
         CSR
       </Link>
       <Link href="/users" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-        List Users
+         Users
+      </Link>
+      <Link href="/about" className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+         About Me
       </Link>
     
     </div>
