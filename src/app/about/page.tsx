@@ -23,7 +23,7 @@ const About = () => {
             <p className="font-poppins font-bold text-heading sm:text-4xl text-2xl">
                 Mahalthy Khaleel Ahmed
             </p>
-            <p className="text-heading">Lead Software Engineer</p>
+            <p className="text-heading text-center">Lead Software Engineer</p>
         </div>
 
     </div>
@@ -45,28 +45,35 @@ const About = () => {
                             <div className="ml-2 truncate">mahalthykhaleel@hotmail.com</div>
                         </div>
                         <div className="flex items-center my-1">
-                           
                             <div>+91 8296485050</div>
                         </div>
-                     
+                        <div className="flex items-center my-1">
+                            <a> https://github.com/khaleelSP2013 </a>
+                        </div>
+                       
                     </div>
                 </div>
                 
                 <div className="py-3 sm:order-none order-2">
                     <h2 className="text-lg font-poppins font-bold text-top-color">Skills</h2>
                     <div className="border-2 w-20 border-top-color my-3"></div>
-                    <div>
-                        <div className="flex items-center my-1">
-                          
-                            <div className="ml-2">C#, ASP.NET, WEB API. NETCORE 3.1, EF. ANGULAR, REACT JS, NEXT JS</div>
-                            <div className="ml-2">JIRA,Agile,Jenkins, Azure, TFS, Git, SQL Server</div>
-                        </div>
-                        <div className="flex items-center my-1">
-                           
-                            <div className="ml-2">React js, Next js,Angular 8 ,Html, Css</div>
-                        </div>
+                  
+                    <div className="flex flex-col space-y-1">
 
-                    </div>
+<div className="flex flex-col">
+    <p className="text-sm font-medium">
+        <span className="text-green-700"></span> C#, ASP.NET, WEB API. NETCORE 3.1
+    </p>
+</div>
+
+<div className="flex flex-col">
+    <p className="text-sm font-medium"><span className="text-green-700"></span>JIRA,Agile,Jenkins, Azure, TFS, Git, SQL Server</p>
+</div>
+<div className="flex flex-col">
+    <p className="text-sm font-medium"><span className="text-green-700"></span>React js, Next js,Angular 8 ,Html, Css</p>
+</div>
+
+</div>
                 </div>
                 
                 <div className="py-3 sm:order-none order-1">
@@ -87,7 +94,27 @@ const About = () => {
 
                     </div>
                 </div>
+                <div className="py-3 sm:order-none order-1">
+                    <h2 className="text-lg font-poppins font-bold text-top-color">Domain Background</h2>
+                    <div className="border-2 w-20 border-top-color my-3"></div>
 
+                    <div className="flex flex-col space-y-1">
+
+                        <div className="flex flex-col">
+                            <p className="text-sm font-medium">
+                                <span className="text-green-700"></span> Banking and Finance
+                            </p>
+                        </div>
+                       
+                        <div className="flex flex-col">
+                            <p className="text-sm font-medium"><span className="text-green-700"></span>Automobile</p>
+                        </div>
+                        <div className="flex flex-col">
+                            <p className="text-sm font-medium"><span className="text-green-700"></span>HR and Payroll</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
 
@@ -110,9 +137,16 @@ const About = () => {
                             <p className="font-semibold text-sm text-gray-700">2024 - Present</p>
                             <p className="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
                             <ul className="text-sm list-disc pl-4 space-y-1">
-                                <li>Working on customer facing product</li>
-                                <li>Deliverying highly efficient solutions</li>
-                                <li>Solving critical bugs</li>
+                                <li>Participated in code reviews and provided constructive feedback to team members</li>
+                                <li>Communicate with clients and implement new Enhancements/features as per their need</li>
+                                <li>Designed the UI using React js, tailwind css and TypeScript</li>
+                                <li> Work closely with UI/UX Designer and bridge the gap between graphical design and technical implementation.
+ Implemented performance optimization strategies such as React lazy loading and memoization, which reduced page load time by 
+30% and enhanced user experience</li>
+                                <li>WorkedinAPIintegration using Redux  and RxJS Libraries</li>
+                                <li>Closely worked with the QA team for testing and resolving bugs in the application.</li>
+                                <li> Follow up with Agile development methodologies and using Azure DevOps.</li>
+                                <li>Scrum ,backlog, demo and retro meeting</li>
                             </ul>
                         </div>
 
@@ -163,7 +197,7 @@ const About = () => {
                         </div>
                         <div className="flex flex-col">
                             <p className="text-lg font-semibold text-gray-700">Loan Origination System (LOS)</p>
-                            <p className="font-normal text-sm text-gray-700 mb-1 pl-2">:  End-to-end loan origination system, Meridian link Consumer. Our proven, configurable SaaS cloud-based loan origination system (LOS) providing a full loan product suite to financial institutions nationwide. like yours to process loans, streamline internal loans (VL, PL, DA, HE, CC, BL) lending processes, and finally go 100% digital from application to approval quickly and accurately. high performance database server development. Consumer is an LOS solution that can be tailored to fit the needs of any financial.
+                            <p className="font-normal text-sm text-gray-700 mb-1 pl-2">End-to-end loan origination system, Meridian link Consumer. Our proven, configurable SaaS cloud-based loan origination system (LOS) providing a full loan product suite to financial institutions nationwide. like yours to process loans, streamline internal loans (VL, PL, DA, HE, CC, BL) lending processes, and finally go 100% digital from application to approval quickly and accurately. high performance database server development. Consumer is an LOS solution that can be tailored to fit the needs of any financial.
                             </p>
                         </div>
                         <div className="flex flex-col">
@@ -183,7 +217,7 @@ const About = () => {
 </div>
 
 
-</div>
+    </div>
 
     
   )
