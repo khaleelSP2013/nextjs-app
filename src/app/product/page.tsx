@@ -19,7 +19,7 @@ const ProductsPage = async () => {
 
   return (
     <>
-    <h2>Product Detail Render Server Side Component</h2>
+    <h2>Product Detail - Server Side Render Component</h2>
     <ul className="space-y-4 p-4">
     {products.map((product: Product) => (
       <li

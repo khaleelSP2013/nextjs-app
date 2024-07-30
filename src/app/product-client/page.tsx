@@ -43,7 +43,7 @@ const ProductClientPage = () => {
       }
   return (
     <>
-    <h2>Product Detail Render Client Side Component</h2>
+    <h2>Product Detail - Client Side Render Component</h2>
      
        <ul className="space-y-4 p-4">
     {product.map((product) => (

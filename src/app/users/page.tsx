@@ -7,7 +7,7 @@ email:string;
 phone:string;
 }
 const UserPage = async() => {
-    await new Promise((resolve) => setTimeout(resolve, 11000));
+    await new Promise((resolve) => setTimeout(resolve, 6000));
     const response =await fetch("https://jsonplaceholder.typicode.com/users")
     const users=await response.json();
     console.log(users)
