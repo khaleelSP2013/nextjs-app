@@ -55,38 +55,14 @@ const About = () => {
                             </a>
                             <div>+91 8296485050</div>
                         </div>
-                        <div className="flex items-center my-1">
-                            <a className="w-6 text-gray-700 hover:text-orange-600"
-                                aria-label="Visit TrendyMinds Facebook" href="" target="_blank"><svg
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" className="h-4">
-                                    <path fill="currentColor"
-                                        d="m279.14 288 14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
-                                    </path>
-                                </svg>
-                            </a>
-                            <div>sale galli latur</div>
-                        </div>
-                        <div className="flex items-center my-1">
-                            <a className="w-6 text-gray-700 hover:text-orange-600"
-                                aria-label="Visit TrendyMinds Twitter" href="" target="_blank"><svg className="h-4"
-                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                                    <path fill="currentColor"
-                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
-                                    </path>
-                                </svg>
-                            </a>
-                            <div>amitpachange21</div>
-                        </div>
-
+                     
                     </div>
                 </div>
                 
                 <div className="py-3 sm:order-none order-2">
                     <h2 className="text-lg font-poppins font-bold text-top-color">Skills</h2>
                     <div className="border-2 w-20 border-top-color my-3"></div>
-
                     <div>
-                                          
                         <div className="flex items-center my-1">
                             <a className="w-6 text-gray-700 hover:text-orange-600"
                                 aria-label="Visit TrendyMinds Facebook" href="" target="_blank">
@@ -107,19 +83,7 @@ const About = () => {
 
                         </div>
                         <div className="flex items-center my-1">
-                            <a className="w-6 text-gray-700 hover:text-orange-600"
-                                aria-label="Visit TrendyMinds Twitter" href="" target="_blank">
-                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M17 7.82959L18.6965 9.35641C20.239 10.7447 21.0103 11.4389 21.0103 12.3296C21.0103 13.2203 20.239 13.9145 18.6965 15.3028L17 16.8296"
-                                        stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
-                                    <path d="M13.9868 5L12.9934 8.70743M11.8432 13L10.0132 19.8297" stroke="#1C274C"
-                                        stroke-width="1.5" stroke-linecap="round" />
-                                    <path
-                                        d="M7.00005 7.82959L5.30358 9.35641C3.76102 10.7447 2.98975 11.4389 2.98975 12.3296C2.98975 13.2203 3.76102 13.9145 5.30358 15.3028L7.00005 16.8296"
-                                        stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
-                                </svg>
-                            </a>
+                           
                             <div className="ml-2">React js, Next js,Angular 8 ,Html, Css</div>
                         </div>
 
