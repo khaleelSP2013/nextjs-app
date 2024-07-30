@@ -15,9 +15,9 @@ const About = () => {
 
         <div className="w-2/3 sm:text-center pl-5 mt-10 text-start">
             <p className="font-poppins font-bold text-heading sm:text-4xl text-2xl">
-                Amit Pachange
+                Mahalthy Khaleel Ahmed
             </p>
-            <p className="text-heading">Software Engineer</p>
+            <p className="text-heading">Lead Software Engineer</p>
         </div>
 
     </div>
@@ -42,7 +42,7 @@ const About = () => {
                                     </path>
                                 </svg>
                             </a>
-                            <div className="ml-2 truncate">amitpachange@gmail.com</div>
+                            <div className="ml-2 truncate">mahalthykhaleel@hotmail.com</div>
                         </div>
                         <div className="flex items-center my-1">
                             <a className="w-6 text-gray-700 hover:text-orange-600"
@@ -53,7 +53,7 @@ const About = () => {
                                     </path>
                                 </svg>
                             </a>
-                            <div>4574358775</div>
+                            <div>+91 8296485050</div>
                         </div>
                         <div className="flex items-center my-1">
                             <a className="w-6 text-gray-700 hover:text-orange-600"
@@ -108,7 +108,7 @@ const About = () => {
                                     </g>
                               
                             </a>
-                            <div className="ml-2">Andoid</div>
+                            <div className="ml-2">Net Core</div>
                         </div>
                         <div className="flex items-center my-1">
                             <a className="w-6 text-gray-700 hover:text-orange-600"
@@ -124,7 +124,7 @@ const About = () => {
                                         stroke="#1C274C" stroke-width="1.5" stroke-linecap="round" />
                                 </svg>
                             </a>
-                            <div className="ml-2">Html, Css, JS</div>
+                            <div className="ml-2">React js, Next js,Html, Css</div>
                         </div>
 
                     </div>
@@ -137,24 +137,13 @@ const About = () => {
                     <div className="flex flex-col space-y-1">
 
                         <div className="flex flex-col">
-                            <p className="font-semibold text-xs text-gray-700">2021</p>
                             <p className="text-sm font-medium">
-                                <span className="text-green-700">B.E. (INFORMATION TECHNOLOGY)</span>, PIMPRI CHINCHWAD
-                                COLLEGE OF ENGINEERING, PUNE.
+                                <span className="text-green-700">M.C.A</span>, Visveswaraiah Technological University
                             </p>
-                            <p className="font-bold text-xs text-gray-700 mb-2">Percentage: 76.61</p>
                         </div>
+                       
                         <div className="flex flex-col">
-                            <p className="font-semibold text-xs text-gray-700">2017</p>
-                            <p className="text-sm font-medium"><span className="text-green-700">HSC</span>, RAJARSHI SHAHU
-                                COLLEGE, LATUR.</p>
-                            <p className="font-bold text-xs text-gray-700 mb-2">Percentage: 80.77</p>
-                        </div>
-                        <div className="flex flex-col">
-                            <p className="font-semibold text-xs text-gray-700">2015</p>
-                            <p className="text-sm font-medium"><span className="text-green-700">SSC</span>, DNYANESHWAR HIGH
-                                SCHOOL, LATUR.</p>
-                            <p className="font-bold text-xs text-gray-700 mb-2">Percentage: 93.80</p>
+                            <p className="text-sm font-medium"><span className="text-green-700">B.A.(Maths) </span>, Sri Krishnadevaraya University, Anatapuramu, A.P</p>
                         </div>
 
                     </div>
@@ -169,12 +158,8 @@ const About = () => {
                 <div className="py-3">
                     <h2 className="text-lg font-poppins font-bold text-top-color">About Me</h2>
                     <div className="border-2 w-20 border-top-color my-3"></div>
-                    <p>To get a career opportunity which would help me to utilize my academic background to assist
-                        me to gain experience, employ my excellent skills, and enable me to make positive
-                        contribution.</p>
+                    <p>12+ years of experience in Software Development, Deployment & Support and Project Execution. Efficient in merging end user needs with business requirements, budgetary restrictions, and logical considerations to meet project deliverables. Domain Specialized in: Financial Institutions, Education, Payroll & HR, Warehouse & Procurement. Detail-oriented and results-driven Full Stack Developer with 2 years of experience, specializing in build processes (CI/CD and Jenkins). Seeking to contribute expertise in both business analysis and full stack development to a dynamic team, leveraging hands-on experience to drive innovation and efficiency</p>
                 </div>
-
-                
                 <div className="py-3">
                     <h2 className="text-lg font-poppins font-bold text-top-color">Professional Experience</h2>
                     <div className="border-2 w-20 border-top-color my-3"></div>
@@ -182,8 +167,8 @@ const About = () => {
                     <div className="flex flex-col">
 
                         <div className="flex flex-col">
-                            <p className="text-lg font-bold text-gray-700">Netcracker Technology | Software Engineer</p>
-                            <p className="font-semibold text-sm text-gray-700">2021 - Present</p>
+                            <p className="text-lg font-bold text-gray-700">TAO Digital Solutions Limited  | Lead Software Engineer</p>
+                            <p className="font-semibold text-sm text-gray-700">2024 - Present</p>
                             <p className="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
                             <ul className="text-sm list-disc pl-4 space-y-1">
                                 <li>Working on customer facing product</li>
@@ -193,8 +178,8 @@ const About = () => {
                         </div>
 
                         <div className="flex flex-col mt-8">
-                            <p className="text-lg font-bold text-gray-700">TailwindFlex.com | Lead</p>
-                            <p className="font-semibold text-sm text-gray-700">2020-2021</p>
+                            <p className="text-lg font-bold text-gray-700">Bhavna Corp. (Bhavna Software India Pvt. Ltd.): | Principal Engineer II </p>
+                            <p className="font-semibold text-sm text-gray-700">2021-2024</p>
                             <p className="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
                             <ul className="text-sm list-disc pl-4 space-y-1">
                                 <li>Developed usable components</li>
@@ -202,7 +187,16 @@ const About = () => {
                                 <li>Solving critical bugs</li>
                             </ul>
                         </div>
-
+                        <div className="flex flex-col mt-8">
+                            <p className="text-lg font-bold text-gray-700"> Delta Technology and Management Services Private Ltd | Sr. Software Engineer  </p>
+                            <p className="font-semibold text-sm text-gray-700">2019-2020</p>
+                            <p className="font-semibold text-sm text-gray-700 mt-2 mb-1">Key Responsibilities</p>
+                            <ul className="text-sm list-disc pl-4 space-y-1">
+                                <li>Developed usable components</li>
+                                <li>Solving complex problems</li>
+                                <li>Solving critical bugs</li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div>
@@ -215,19 +209,19 @@ const About = () => {
                     <div className="flex flex-col">
 
                         <div className="flex flex-col">
-                            <p className="text-lg font-semibold text-gray-700">Used Books mobile app</p>
-                            <p className="font-normal text-sm text-gray-700 mb-1 pl-2">A platform to sell as well as to
-                                buy used books only for PCCoE College due to this reuse of books will be there
-                                beneficial for environment also indirectly helps increase communication between
-                                juniors and seniors.</p>
+                            <p className="text-lg font-semibold text-gray-700">Service Edge</p>
+                            <p className="font-normal text-sm text-gray-700 mb-1 pl-2">This app is an integrated solution to enhance service department efficiency for automotive dealerships. The app featured online appointment scheduling, digital vehicle inspections, real-time customer updates, and comprehensive reporting tools. This initiative significantly improved customer satisfaction, streamlined service workflows, and provided actionable insights through advanced analytics.</p>
                         </div>
                         <div className="flex flex-col">
-                            <p className="text-lg font-semibold text-gray-700">Parking Automation System</p>
-                            <p className="font-normal text-sm text-gray-700 mb-1 pl-2">it’s a web application which
-                                helps you to book your slot for your car just like booking a movie ticket from home.
+                            <p className="text-lg font-semibold text-gray-700">Loan Origination System (LOS)</p>
+                            <p className="font-normal text-sm text-gray-700 mb-1 pl-2">:  End-to-end loan origination system, Meridian link Consumer. Our proven, configurable SaaS cloud-based loan origination system (LOS) providing a full loan product suite to financial institutions nationwide. like yours to process loans, streamline internal loans (VL, PL, DA, HE, CC, BL) lending processes, and finally go 100% digital from application to approval quickly and accurately. high performance database server development. Consumer is an LOS solution that can be tailored to fit the needs of any financial.
                             </p>
                         </div>
-
+                        <div className="flex flex-col">
+                            <p className="text-lg font-semibold text-gray-700">: FI (Financial Institutions)</p>
+                            <p className="font-normal text-sm text-gray-700 mb-1 pl-2">The Project is used to manage institutions’ financial performance. This project brings together budgeting, Forecasting, financial planning, Profitability and Relationship profitability and pricing on single unified platform. Transform your financials—from inputs to outcomes—with our driver-based budgeting, planning, and forecasting software. Integrated financial planning software to budget, model scenarios, analyses and drive profitability. Streamline processes and increase accuracy through automated consolidation across organization levels.
+                            </p>
+                        </div>
                     </div>
 
                 </div>
